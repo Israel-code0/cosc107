@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #B0C5CE;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.image-section {
+  flex: 1;
+  background-image: url('path-to-your-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content-section {
+  flex: 1;
+  color: #2c3e50;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.08em;
+  color: #186bf0;
+}
+
+.giveaway-time {
+  font-size: .9em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 1em;
+  margin-bottom: 2em;
+  padding: 2px;
+}
+
+#countdown {
+  display: flex;
+  color: white;
+}
+
+.time-box {
+  background-color: #041c42;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.time-box span {
+  font-size: 2em;
+  display: block;
+}
+
+.time-box:not(:last-child) {
+  margin-right: 20px;
+}
+
+img{
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
